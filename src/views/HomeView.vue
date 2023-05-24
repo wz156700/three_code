@@ -17,7 +17,8 @@
     <!-- <galaxy /> -->
     <!-- <rayCaster /> -->
     <!-- <page /> -->
-    <cannon />
+    <!-- <cannon /> -->
+    <cannon2 />
     <!-- </div> -->
     <!-- </div> -->
   </div>
@@ -31,6 +32,7 @@ import galaxy from "../components/galaxy.vue";
 import rayCaster from "../components/rayCaster.vue";
 import page from "../components/3dPage.vue";
 import cannon from "../components/cannon.vue";
+import cannon2 from "../components/cannon2.vue";
 
 export default defineComponent({
   components: {
@@ -40,6 +42,7 @@ export default defineComponent({
     rayCaster,
     page,
     cannon,
+    cannon2,
   },
   setup() {
     let index = ref(1);
