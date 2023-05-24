@@ -16,7 +16,8 @@
       <div v-else-if="index === 3"> -->
     <!-- <galaxy /> -->
     <!-- <rayCaster /> -->
-    <page />
+    <!-- <page /> -->
+    <cannon />
     <!-- </div> -->
     <!-- </div> -->
   </div>
@@ -29,6 +30,7 @@ import snowFlake from "../components/snowflake.vue";
 import galaxy from "../components/galaxy.vue";
 import rayCaster from "../components/rayCaster.vue";
 import page from "../components/3dPage.vue";
+import cannon from "../components/cannon.vue";
 
 export default defineComponent({
   components: {
@@ -37,6 +39,7 @@ export default defineComponent({
     galaxy,
     rayCaster,
     page,
+    cannon,
   },
   setup() {
     let index = ref(1);
